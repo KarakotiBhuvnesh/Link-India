@@ -56,35 +56,48 @@ export default function About() {
 
       {/* MAIN CONTENT: editorial two-column */}
       <section className="container py-12 md:py-16">
-        <div className="mx-auto max-w-4xl">
-          <div className="grid gap-8 md:grid-cols-12">
-            <div className="md:col-span-5">
-              <h2 className="text-xl font-semibold">Who we are</h2>
-            </div>
-            <div className="md:col-span-7">
-              <p className="text-slate-700">
-                Link India is a London-based policy think tank dedicated to strengthening economic
-                and cultural relations between the United Kingdom and India. We work to shape a
-                shared policy consensus on key areas of bilateral cooperation, particularly in
-                trade, investment, and people-to-people engagement.
-              </p>
-            </div>
-          </div>
+  <div className="mx-auto max-w-4xl">
+    {/* Who we are */}
+    <div className="grid gap-8 md:grid-cols-12 items-start">
+      <div className="md:col-span-5 flex items-center gap-3">
+        <img
+          src="/images/wwr.png"
+          alt=""
+          className="h-20 w-20 shrink-0"
+        />
+        <h2 className="text-xl font-semibold">Who we are</h2>
+      </div>
+      <div className="md:col-span-7">
+        <p className="text-slate-700">
+          Link India is a London-based policy think tank dedicated to strengthening
+          economic and cultural relations between the United Kingdom and India.
+          We work to shape a shared policy consensus on key areas of bilateral
+          cooperation, particularly in trade, investment, and people-to-people
+          engagement.
+        </p>
+      </div>
+    </div>
 
-          <div className="mt-10 grid gap-8 md:grid-cols-12">
-            <div className="md:col-span-5">
-              <h2 className="text-xl font-semibold">How we work</h2>
-            </div>
-            <div className="md:col-span-7">
-              <p className="text-slate-700">
-                Through structured dialogues, research-driven analysis, and stakeholder
-                consultations, Link India provides actionable policy insights and strategic
-                recommendations to both governments and the private sector. Our mission is to deepen
-                mutual understanding and foster long-term partnerships that reflect the evolving
-                priorities of both nations.
-              </p>
-            </div>
-          </div>
+    {/* How we work */}
+    <div className="mt-10 grid gap-8 md:grid-cols-12 items-start">
+      <div className="md:col-span-5 flex items-center gap-3">
+        <img
+          src="/images/hww.png"
+          alt=""
+          className="h-20 w-20 shrink-0"
+        />
+        <h2 className="text-xl font-semibold">How we work</h2>
+      </div>
+      <div className="md:col-span-7">
+        <p className="text-slate-700">
+          Through structured dialogues, research-driven analysis, and stakeholder
+          consultations, Link India provides actionable policy insights and
+          strategic recommendations to both governments and the private sector.
+          Our mission is to deepen mutual understanding and foster long-term
+          partnerships that reflect the evolving priorities of both nations.
+        </p>
+      </div>
+    </div>
 
           {/* Mission pull-quote */}
           <figure className="mt-12 rounded-2xl border bg-slate-50 p-6">
@@ -97,10 +110,7 @@ export default function About() {
           {/* Independence callout */}
           <div className="mt-12 rounded-2xl border p-6">
             <div className="flex items-start gap-4">
-              <div
-                className="mt-1 h-8 w-8 shrink-0 rounded-full border bg-white"
-                aria-hidden
-              />
+              
               <div>
                 <h3 className="text-base font-semibold">Independence</h3>
                 <p className="mt-1 text-slate-700">

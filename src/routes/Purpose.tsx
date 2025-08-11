@@ -121,9 +121,6 @@ export default function Purpose() {
               <Dot /> UK–India strategic forums (tech, education, sustainability)
             </li>
             <li className="flex items-start gap-2">
-              <Dot /> Young Policy Leaders Network programming and mentorship
-            </li>
-            <li className="flex items-start gap-2">
               <Dot /> Diaspora town halls and stakeholder consultations for feedback
             </li>
           </ul>

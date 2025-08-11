@@ -40,14 +40,13 @@ export default function Vision() {
 
       {/* LARGE IMAGE MOSAIC (very little text) */}
       <section className="container py-10 md:py-16">
-        
 
         {/* Wide banner image */}
         <figure className="relative mt-4">
           <img
             src="/images/vision-4.jpg"
             alt="Cultural exchange performance representing both nations"
-            className="h-[24rem] w-full rounded-2xl border object-cover"
+            className="h-[32rem] w-full rounded-2xl border object-cover"
             loading="lazy"
           />
           <figcaption className="mt-2 text-xs text-slate-500">
@@ -72,7 +71,6 @@ export default function Vision() {
 function Pillar({ title }: { title: string }) {
   return (
     <div className="flex flex-col items-center">
-      <div className="h-10 w-10 rounded-full border" aria-hidden />
       <div className="mt-3 text-sm font-medium tracking-wide text-slate-700">{title}</div>
     </div>
   )

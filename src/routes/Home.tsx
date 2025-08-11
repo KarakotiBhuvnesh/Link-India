@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { SEO } from '@/lib/seo'
 import Hero from '@/blocks/Hero'
+import Purpose from './Purpose'
 import PostCard from '@/components/cards/PostCard'
 import EventCard from '@/components/cards/EventCard'
 import type { Post, Event } from '@/types'
@@ -21,6 +22,9 @@ export default function Home() {
     <>
       <SEO title="Home — Link India" description="Policy, People, Progress" />
       <Hero />
+
+      <Purpose />
+
       <section className="container py-12">
         <h2 className="text-xl font-semibold">Featured posts</h2>
         <div className="mt-6 grid gap-6 md:grid-cols-3">

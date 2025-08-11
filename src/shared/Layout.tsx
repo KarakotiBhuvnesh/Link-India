@@ -7,8 +7,8 @@ import site from '@/site.json'
 // NAVBAR
 
 const nav = [
-  { to: '/about', label: 'About Us' },
   { to: '/vision', label: 'Vision' },
+  { to: '/about', label: 'About Us' },
   { to: '/purpose', label: 'Purpose' },
   { to: '/blog', label: 'Publications' },
   { to: '/events', label: 'Events' },
@@ -99,7 +99,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="font-semibold">Sitemap</div>
 
             <nav aria-label="Sitemap" className="mt-3">
-              <ul className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2 text-sm text-slate-700">
+              <ul className=" text-sm text-slate-700">
                 {/* Core */}
                 <li><a className="hover:text-slate-900" href="/">Home</a></li>
                 <li><a className="hover:text-slate-900" href="/about">About Us</a></li>
