@@ -1,32 +1,23 @@
 [
   {
     "id": "m1",
-    "name": "Ananya Rao",
-    "role": "Chair"
+    "name": "Khalid Sofi",
+    "role": "Partner, Lee Bolton Monier Williams LLP ",
+    "bio": "Khalid is a partner at Lee Bolton Monier Williams LLP, a law firm based in London. He has extensive experience in corporate law and international business transactions, particularly between the UK and India. Khalid is passionate about fostering UK-India relations through legal frameworks and policy advocacy.",
+    "photo": "/images/trust1.jpg"
   },
   {
     "id": "m2",
-    "name": "Rahul Verma",
-    "role": "Trustee"
+    "name": "Ashwin Kumaraswami",
+    "role": "Investment Director at Mercia Asset Management ",
+    "bio": "Ashwin is an accomplished investor and Investment Director at Mercia Asset Management, where he leads early-stage investments in deep-tech, hard-tech, and emerging technologies. With over 15 years of experience in venture capital, he has held board roles across numerous UK tech companies, including Mindtrace and Mindtech Global. Formerly a semiconductor entrepreneur, Ashwin has a strong track record in commercialising university IP and scaling high-growth startups. He currently serves as a director for several companies, focusing on transformative innovations in AI, biotech, IoT, and software. His strategic guidance has helped shape the UK’s deep-tech venture ecosystem",
+    "photo": "/images/trust2.jpg"
   },
   {
     "id": "m3",
-    "name": "Priya Singh",
-    "role": "Trustee"
-  },
-  {
-    "id": "m4",
-    "name": "Oliver Green",
-    "role": "Trustee"
-  },
-  {
-    "id": "m5",
-    "name": "Meera Shah",
-    "role": "Trustee"
-  },
-  {
-    "id": "m6",
-    "name": "Daniel Clarke",
-    "role": "Trustee"
+    "name": "Supriyo Chaudhuri ",
+    "role": "CEO of e1133 Learning Systems ",
+    "bio": "Supriyo Chaudhri is a UK-based education entrepreneur and CEO of e1133 Learning Systems, with over 30 years of experience in workforce education across higher and professional sectors. He co-founded UAspire and led strategic education programmes at Knod and ATMC Group, partnering with industry giants like IBM, GE, Oracle, ACCA, and Grant Thornton. He has built and scaled transnational education ventures across Asia, the Middle East, and the UK. Serving as director of multiple UK education and tech ventures, Supriyo is also a Fellow of the Royal Society of Arts (FRSA). ",
+    "photo": "/images/trust3.jpg"
   }
 ]

@@ -8,6 +8,7 @@ import Trustees from './Trustees'
 import Legal from './Legal'
 import Post from './Post'
 import Events from './Events'
+import Blog from './Blog'
 import EventDetail from './EventDetail'
 import NotFound from './NotFound'
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/legal" element={<Legal />} />
 
         <Route path="/blog/:slug" element={<Post />} />
+        <Route path="/blog" element={<Blog />} />
 
         <Route path="/events" element={<Events />} />
         <Route path="/events/:slug" element={<EventDetail />} />
