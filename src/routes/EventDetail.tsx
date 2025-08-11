@@ -31,7 +31,6 @@ export default function EventDetail() {
         <button className="border rounded px-3 py-2" onClick={()=>createICS({ title: event.title, start: event.start, location: event.venue?.name })}>
           Add to calendar (.ics)
         </button>
-        <a className="border rounded px-3 py-2" href="/membership">Register</a>
       </div>
     </div>
   )

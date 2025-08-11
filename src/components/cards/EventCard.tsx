@@ -19,9 +19,6 @@ export default function EventCard({ event }: { event: Event }) {
           {event.venue?.name}
         </div>
       </div>
-      <div>
-        <Link to={`/events/${event.slug}`} className="text-primary text-sm">{isPast ? 'View' : 'Register →'}</Link>
-      </div>
     </article>
   )
 }

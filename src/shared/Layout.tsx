@@ -92,6 +92,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               Email: <a className="text-primary underline" href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
             </p>
             <p className="text-sm">Phone: {site.contact.phone}</p>
+            <p className="text-sm">Address: {site.contact.address.split(',').map((line, idx) => (
+                <div key={idx}>{line.trim()}</div>
+              ))}</p>
           </div>
           
 

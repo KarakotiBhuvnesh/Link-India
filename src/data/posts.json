@@ -46,53 +46,6 @@
     ],
     "authorId": "a3",
     "publishedAt": "2025-04-10T09:00:00Z"
-  },
-  {
-    "id": "p4",
-    "slug": "sample-post-4",
-    "title": "Sample Policy Brief #4: UK\u2013India Insight",
-    "excerpt": "A short excerpt of the policy brief highlighting key recommendations.",
-    "content": "# Heading\\n\\nThis is markdown content for the policy brief. Add sections, charts, and references.",
-    "coverImage": "/images/cover.jpg",
-    "category": "Trade",
-    "tags": [
-      "UK\u2013India",
-      "Policy",
-      "Analysis"
-    ],
-    "authorId": "a4",
-    "publishedAt": "2025-05-10T09:00:00Z"
-  },
-  {
-    "id": "p5",
-    "slug": "sample-post-5",
-    "title": "Sample Policy Brief #5: UK\u2013India Insight",
-    "excerpt": "A short excerpt of the policy brief highlighting key recommendations.",
-    "content": "# Heading\\n\\nThis is markdown content for the policy brief. Add sections, charts, and references.",
-    "coverImage": "/images/cover.jpg",
-    "category": "Education",
-    "tags": [
-      "UK\u2013India",
-      "Policy",
-      "Analysis"
-    ],
-    "authorId": "a5",
-    "publishedAt": "2025-06-10T09:00:00Z"
-  },
-  {
-    "id": "p6",
-    "slug": "sample-post-6",
-    "title": "Sample Policy Brief #6: UK\u2013India Insight",
-    "excerpt": "A short excerpt of the policy brief highlighting key recommendations.",
-    "content": "# Heading\\n\\nThis is markdown content for the policy brief. Add sections, charts, and references.",
-    "coverImage": "/images/cover.jpg",
-    "category": "Tech",
-    "tags": [
-      "UK\u2013India",
-      "Policy",
-      "Analysis"
-    ],
-    "authorId": "a6",
-    "publishedAt": "2025-01-10T09:00:00Z"
+  
   }
 ]
