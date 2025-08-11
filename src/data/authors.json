@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a1",
+    "name": "Riya Mehta",
+    "role": "Research Fellow",
+    "bio": "Trade & investment policy specialist."
+  },
+  {
+    "id": "a2",
+    "name": "Arun Sharma",
+    "role": "Director",
+    "bio": "Economist focusing on UK\u2013India relations."
+  },
+  {
+    "id": "a3",
+    "name": "Sara Patel",
+    "role": "Programme Lead",
+    "bio": "Education & mobility."
+  },
+  {
+    "id": "a4",
+    "name": "James Li",
+    "role": "Visiting Scholar",
+    "bio": "Tech & innovation policy."
+  },
+  {
+    "id": "a5",
+    "name": "Ayesha Khan",
+    "role": "Analyst",
+    "bio": "Climate and sustainability."
+  },
+  {
+    "id": "a6",
+    "name": "Tom Wilson",
+    "role": "Advisor",
+    "bio": "Diaspora and culture."
+  }
+]

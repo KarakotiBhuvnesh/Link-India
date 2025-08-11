@@ -1,0 +1,32 @@
+[
+  {
+    "id": "m1",
+    "name": "Ananya Rao",
+    "role": "Chair"
+  },
+  {
+    "id": "m2",
+    "name": "Rahul Verma",
+    "role": "Trustee"
+  },
+  {
+    "id": "m3",
+    "name": "Priya Singh",
+    "role": "Trustee"
+  },
+  {
+    "id": "m4",
+    "name": "Oliver Green",
+    "role": "Trustee"
+  },
+  {
+    "id": "m5",
+    "name": "Meera Shah",
+    "role": "Trustee"
+  },
+  {
+    "id": "m6",
+    "name": "Daniel Clarke",
+    "role": "Trustee"
+  }
+]

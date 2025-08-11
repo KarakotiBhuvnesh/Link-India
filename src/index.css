@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: 0 0% 0%;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px dashed theme('colors.primary.DEFAULT');
+  outline-offset: 2px;
+}

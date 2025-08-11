@@ -1,0 +1,35 @@
+[
+  {
+    "id": "t1",
+    "name": "Student",
+    "priceMonthly": 5,
+    "priceAnnual": 50,
+    "benefits": [
+      "Event discounts",
+      "Newsletter",
+      "Early reports"
+    ]
+  },
+  {
+    "id": "t2",
+    "name": "Individual",
+    "priceMonthly": 15,
+    "priceAnnual": 150,
+    "benefits": [
+      "All Student perks",
+      "Priority invites",
+      "Member briefings"
+    ]
+  },
+  {
+    "id": "t3",
+    "name": "Organisation",
+    "priceMonthly": 100,
+    "priceAnnual": 1000,
+    "benefits": [
+      "Team invites",
+      "Private roundtables",
+      "Sponsorship options"
+    ]
+  }
+]

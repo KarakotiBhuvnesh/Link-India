@@ -1,0 +1,160 @@
+[
+  {
+    "id": "e1",
+    "slug": "upcoming-event-1",
+    "title": "UK\u2013India Forum #1",
+    "excerpt": "Roundtable on trade, education, and technology between the UK and India.",
+    "start": "2025-08-18T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "Central Hall",
+      "address": "London"
+    },
+    "tags": [
+      "Roundtable",
+      "Members"
+    ],
+    "isMembersOnly": true
+  },
+  {
+    "id": "e2",
+    "slug": "upcoming-event-2",
+    "title": "UK\u2013India Forum #2",
+    "excerpt": "Roundtable on trade, education, and technology between the UK and India.",
+    "start": "2025-08-25T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "Central Hall",
+      "address": "London"
+    },
+    "tags": [
+      "Roundtable",
+      "Members"
+    ],
+    "isMembersOnly": false
+  },
+  {
+    "id": "e3",
+    "slug": "upcoming-event-3",
+    "title": "UK\u2013India Forum #3",
+    "excerpt": "Roundtable on trade, education, and technology between the UK and India.",
+    "start": "2025-09-01T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "Central Hall",
+      "address": "London"
+    },
+    "tags": [
+      "Roundtable",
+      "Members"
+    ],
+    "isMembersOnly": true
+  },
+  {
+    "id": "e4",
+    "slug": "upcoming-event-4",
+    "title": "UK\u2013India Forum #4",
+    "excerpt": "Roundtable on trade, education, and technology between the UK and India.",
+    "start": "2025-09-08T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "Central Hall",
+      "address": "London"
+    },
+    "tags": [
+      "Roundtable",
+      "Members"
+    ],
+    "isMembersOnly": false
+  },
+  {
+    "id": "e5",
+    "slug": "past-event-1",
+    "title": "Past Dialogue #1",
+    "excerpt": "Recap and materials from a previous dialogue.",
+    "start": "2025-08-04T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "King's College",
+      "address": "London"
+    },
+    "tags": [
+      "Dialogue"
+    ]
+  },
+  {
+    "id": "e6",
+    "slug": "past-event-2",
+    "title": "Past Dialogue #2",
+    "excerpt": "Recap and materials from a previous dialogue.",
+    "start": "2025-07-28T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "King's College",
+      "address": "London"
+    },
+    "tags": [
+      "Dialogue"
+    ]
+  },
+  {
+    "id": "e7",
+    "slug": "past-event-3",
+    "title": "Past Dialogue #3",
+    "excerpt": "Recap and materials from a previous dialogue.",
+    "start": "2025-07-21T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "King's College",
+      "address": "London"
+    },
+    "tags": [
+      "Dialogue"
+    ]
+  },
+  {
+    "id": "e8",
+    "slug": "past-event-4",
+    "title": "Past Dialogue #4",
+    "excerpt": "Recap and materials from a previous dialogue.",
+    "start": "2025-07-14T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "King's College",
+      "address": "London"
+    },
+    "tags": [
+      "Dialogue"
+    ]
+  },
+  {
+    "id": "e9",
+    "slug": "past-event-5",
+    "title": "Past Dialogue #5",
+    "excerpt": "Recap and materials from a previous dialogue.",
+    "start": "2025-07-07T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "King's College",
+      "address": "London"
+    },
+    "tags": [
+      "Dialogue"
+    ]
+  },
+  {
+    "id": "e10",
+    "slug": "past-event-6",
+    "title": "Past Dialogue #6",
+    "excerpt": "Recap and materials from a previous dialogue.",
+    "start": "2025-06-30T10:30:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "King's College",
+      "address": "London"
+    },
+    "tags": [
+      "Dialogue"
+    ]
+  }
+]
