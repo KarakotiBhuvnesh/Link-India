@@ -7,9 +7,9 @@ import site from '@/site.json'
 // NAVBAR
 
 const nav = [
-  { to: '/vision', label: 'Vision' },
-  { to: '/about', label: 'About Us' },
-  { to: '/purpose', label: 'Purpose' },
+  { to: '/vision', label: 'About Us' },
+  // { to: '/about', label: 'About Us' },
+  // { to: '/purpose', label: 'Purpose' },
   { to: '/blog', label: 'Publications' },
   { to: '/events', label: 'Events' },
   { to: '/trustees', label: 'Trustees' },

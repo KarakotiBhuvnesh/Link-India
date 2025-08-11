@@ -105,27 +105,7 @@ export default function Purpose() {
       </section>
 
       {/* WHAT'S NEXT */}
-      <section className="container py-14 md:py-20">
-        <div className="rounded-3xl border p-8 md:p-12 shadow-sm">
-          <h2 className="text-2xl font-semibold md:text-3xl">
-            What this looks like in practice
-          </h2>
-          <ul className="mt-6 grid gap-4 text-base text-slate-700 md:grid-cols-2">
-            <li className="flex items-start gap-2">
-              <Dot /> Quarterly policy briefs with clear, actionable recommendations
-            </li>
-            <li className="flex items-start gap-2">
-              <Dot /> Closed-door roundtables with ministries, industry, and academia
-            </li>
-            <li className="flex items-start gap-2">
-              <Dot /> UK–India strategic forums (tech, education, sustainability)
-            </li>
-            <li className="flex items-start gap-2">
-              <Dot /> Diaspora town halls and stakeholder consultations for feedback
-            </li>
-          </ul>
-        </div>
-      </section>
+      
     </>
   )
 }

@@ -22,8 +22,15 @@ export default function Home() {
     <>
       <SEO title="Home — Link India" description="Policy, People, Progress" />
       <Hero />
-
+    
       <Purpose />
+      
+      <figure className="mt-12 rounded-2xl text-center border bg-slate-50 p-6">
+            <blockquote className="text-lg font-medium leading-relaxed md:text-xl">
+              “Our mission is to deepen mutual understanding and foster long‑term partnerships that
+              reflect the evolving priorities of both nations.”
+            </blockquote>
+        </figure>
 
       <section className="container py-12">
         <h2 className="text-xl font-semibold">Featured posts</h2>
