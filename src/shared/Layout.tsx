@@ -4,16 +4,15 @@ import { useState } from 'react'
 import clsx from 'clsx'
 import site from '@/site.json'
 
+// NAVBAR
+
 const nav = [
-  { to: '/about', label: 'About' },
+  { to: '/about', label: 'About Us' },
   { to: '/vision', label: 'Vision' },
   { to: '/purpose', label: 'Purpose' },
-  { to: '/blog', label: 'Research/Blog' },
   { to: '/events', label: 'Events' },
-  { to: '/membership', label: 'Membership' },
   { to: '/trustees', label: 'Trustees' },
   { to: '/legal', label: 'Legal' },
-  { to: '/contact', label: 'Contact' },
 ]
 
 export default function Layout({ children }: { children: React.ReactNode }) {
