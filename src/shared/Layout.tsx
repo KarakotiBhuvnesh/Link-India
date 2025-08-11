@@ -92,14 +92,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </p>
             <p className="text-sm">Phone: {site.contact.phone}</p>
           </div>
+          
+
           <div>
-            <div className="font-semibold">Newsletter</div>
-            <p className="mt-2 text-sm text-slate-600">Subscribe for updates.</p>
-            <form className="mt-2 flex gap-2" onSubmit={(e) => e.preventDefault()}>
-              <input aria-label="Email" type="email" className="border rounded px-3 py-2 w-full" placeholder="you@example.com" />
-              <button className="bg-primary text-white rounded px-3 py-2">Subscribe</button>
-            </form>
+            <div className="font-semibold">Sitemap</div>
+
+            <nav aria-label="Sitemap" className="mt-3">
+              <ul className=" text-slate-700">
+                {/* Core */}
+                <li><a className="hover:text-slate-900" href="/">Home</a></li>
+                <li><a className="hover:text-slate-900" href="/about">About Us</a></li>
+
+              </ul>
+            </nav>
           </div>
+
+
+
         </div>
         <div className="border-t">
           <div className="container py-4 text-xs text-slate-500 flex justify-between">

@@ -33,9 +33,6 @@ return (
           <p className="mt-4 text-lg text-slate-100">
             A London-based policy initiative strengthening UK–India ties through research, events, and dialogue.
           </p>
-          <div className="mt-6 flex gap-3">
-            <a href="/events"><Button variant="secondary">See events</Button></a>
-          </div>
         </div>
       </div>
     </div>
