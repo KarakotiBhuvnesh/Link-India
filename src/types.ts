@@ -28,15 +28,18 @@ export type Event = {
   id: string
   slug: string
   title: string
+  subtitle?: string
+  body?: string
   excerpt: string
   start: string
   end?: string
   timezone: string
   venue?: Venue
   onlineLink?: string
-  speakers?: Author[]
+  speakers?: string 
   tags?: string[]
   isMembersOnly?: boolean
+  cover?: string
 }
 
 export type Tier = {

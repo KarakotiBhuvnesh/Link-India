@@ -1,66 +1,22 @@
 [
   {
     "id": "e1",
-    "slug": "upcoming-event-1",
-    "title": "UK\u2013India Forum #1",
-    "excerpt": "Roundtable on trade, education, and technology between the UK and India.",
-    "start": "2025-08-18T10:30:00+00:00",
-    "timezone": "Europe/London",
-    "venue": {
-      "name": "Central Hall",
-      "address": "London"
-    },
-    "tags": [
-      "Roundtable",
-      "Members"
-    ],
-    "isMembersOnly": true
-  },
-  {
-    "id": "e2",
-    "slug": "upcoming-event-2",
-    "title": "UK\u2013India Forum #2",
-    "excerpt": "Roundtable on trade, education, and technology between the UK and India.",
-    "start": "2025-08-25T10:30:00+00:00",
-    "timezone": "Europe/London",
-    "venue": {
-      "name": "Central Hall",
-      "address": "London"
-    },
-    "tags": [
-      "Roundtable",
-      "Members"
-    ],
-    "isMembersOnly": false
-  },
-  {
-    "id": "e5",
     "slug": "past-event-1",
-    "title": "Past Dialogue #1",
-    "excerpt": "Recap and materials from a previous dialogue.",
-    "start": "2025-08-04T10:30:00+00:00",
+    "speakers": "Rahul Gandhi",
+    "title": "Rahul Gandhi Speaks Out in London",
+    "subtitle": "The Opposition leader, who is on a tour of the UK, had an interaction session at the ‘Ideas for India’ conference organised by non-profit think-tank Bridge India on 20 May",
+    "excerpt": "Rahul Gandhi slams BJP at London conference, says it shouts and stifles voices",
+    "start": "2022-05-21T15:52:19+07:30",
     "timezone": "Europe/London",
     "venue": {
-      "name": "King's College",
+      "name": "Press Trust of India",
       "address": "London"
     },
+
+    "body": "Democracy in India is a global public good and a central anchor for the planet and if that cracks, it is going to cause a problem for the planet, Congress leader Rahul Gandhi has warned as he attacked the NDA government, asserting that there are two different designs of governance at play in India, one that stifles voices and the other that listens.\n\nThe Opposition leader, who is on a tour of the UK, had an interaction session at the ‘Ideas for India’ conference organised by non-profit think-tank Bridge India on Friday during which he articulated his party’s vision for mass action that would result in something beautiful for the country.\n\nHe attacked the deep state that is causing damage and declared that the Congress ideology is geared up to fight it.\n\n\"Please realise, what the BJP does is shout and stifle voices. What we do is listen. They are two different things, they are two different designs,\" said Gandhi.\n\nJoined at the conference by Opposition leaders, including CPI(M)’s Sitaram Yechury, RJD’s Tejashwi Yadav and TMC’s Mahua Moitra, the Congress leader warned of kerosene all over the country and all it needs is one spark.\n\n\"A cadre is told, you will say this and nothing else. It’s designed to push a particular set of ideas down people’s throats, whether it is the Communist idea or in the RSS system. We are not designed like that. We are designed to listen to the people of India and pull out their voice and place it on the table,\" he said.\n\n\"Democracy in India is a global public good. It is a central anchor for the planet. Because we are the only people who have managed democracy at the scale that we have. If that cracks, it is going to cause a problem for the planet,\" he said.",
     "tags": [
-      "Dialogue"
-    ]
-  },
-  {
-    "id": "e6",
-    "slug": "past-event-2",
-    "title": "Past Dialogue #2",
-    "excerpt": "Recap and materials from a previous dialogue.",
-    "start": "2025-07-28T10:30:00+00:00",
-    "timezone": "Europe/London",
-    "venue": {
-      "name": "King's College",
-      "address": "London"
-    },
-    "tags": [
-      "Dialogue"
-    ]
+      "Dialogue","Rahul Gnadhi"
+    ],
+    "cover": "/public/images/past-event-1.jpg"
   }
 ]
