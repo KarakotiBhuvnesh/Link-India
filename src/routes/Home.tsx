@@ -40,11 +40,18 @@ export default function Home() {
       </section>
 
       <section className="container py-12">
-        <h2 className="text-xl font-semibold">Upcoming events</h2>
-        <div className="mt-6 grid gap-4">
-          {events.map(e => <EventCard key={e.id} event={e} />)}
-        </div>
-      </section>
+  <h2 className="text-xl font-semibold">Upcoming events</h2>
+  <div className="mt-6 grid gap-4">
+    {events.length > 0 ? (
+      events.map(e => <EventCard key={e.id} event={e} />)
+    ) : (
+      <p className="text-slate-600 italic">
+        There are currently no upcoming events. Please check back soon for updates.
+      </p>
+    )}
+  </div>
+</section>
+
     </>
   )
 }

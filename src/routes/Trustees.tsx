@@ -110,7 +110,38 @@ export default function Trustees() {
               </button>
 
               {/* Content */}
-              <div className="grid gap-6 p-6 md:grid-cols-5">
+              {/* Mobile version */}
+              <div className="grid gap-4 p-4 md:hidden max-h-[70vh] overflow-y-auto">
+                <div className="col-span-2">
+                  <div className="aspect-[4/5] overflow-hidden rounded-xl bg-slate-100">
+                    {active.photo ? (
+                      <img
+                        src={active.photo}
+                        alt={`${active.name} portrait`}
+                        className="h-full w-full object-cover"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center text-slate-400">
+                        <span className="text-xs">Photo coming soon</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-base font-semibold text-slate-900">{active.name}</h3>
+                  <p className="mt-1 text-sm text-slate-600">{active.role}</p>
+                  {active.bio && (
+                    <p className="mt-3 text-xs text-slate-700 leading-snug whitespace-pre-line">
+                      {active.bio}
+                    </p>
+                  )}
+                </div>
+              </div>
+
+
+              {/* Desktop version */}
+              <div className="hidden md:grid gap-6 p-6 md:grid-cols-5">
                 <div className="md:col-span-2">
                   <div className="aspect-[4/5] overflow-hidden rounded-xl bg-slate-100">
                     {active.photo ? (
@@ -128,9 +159,7 @@ export default function Trustees() {
                 </div>
 
                 <div className="md:col-span-3">
-                  <h3 id="trustee-title" className="text-3xl md:text-3xl font-semibold text-slate-900">
-                    {active.name}
-                  </h3>
+                  <h3 className="text-3xl font-semibold text-slate-900">{active.name}</h3>
                   <p className="mt-2 text-lg text-slate-600">{active.role}</p>
                   {active.bio && (
                     <p className="mt-4 text-lg text-slate-700 leading-relaxed whitespace-pre-line">
@@ -139,6 +168,7 @@ export default function Trustees() {
                   )}
                 </div>
               </div>
+
 
               {/* Footer actions (optional) */}
               

@@ -13,18 +13,33 @@ export default function Vision() {
         <img
           src="/images/vision-hero.jpg"
           alt="A quiet moment during a UK–India policy dialogue"
-          className="h-[100vh] w-full object-cover"
+          className="
+            w-full object-cover
+            h-[100vh]                      /* DESKTOP/TABLET: full viewport height */
+            max-[767px]:h-[45vh]           /* MOBILE: shorter for better width view */
+            max-[767px]:overflow-hidden
+            max-[767px]:transform max-[767px]:transform-gpu
+            max-[767px]:origin-center max-[767px]:scale-[1] 
+          "
           loading="lazy"
         />
+
         <div className="absolute inset-0 bg-black/35" aria-hidden />
-        <div className="absolute inset-x-0 bottom-0">
-          <div className="container py-10">
-            <h1 className="max-w-4xl text-2xl font-semibold text-white md:text-5xl md:leading-[1.15]">
-              “To support evidence‑based policymaking that deepens UK–India cooperation across
-              economic, educational, and cultural domains.”
-            </h1>
+          <div className="absolute inset-x-0 bottom-0">
+            <div className="container py-10">
+              <h1
+                className="
+                  max-w-4xl 
+                  text-lg font-semibold text-white        /* MOBILE: smaller text */
+                  md:text-5xl md:leading-[1.15]           /* DESKTOP/TABLET: original size */
+                "
+              >
+                “To support evidence-based policymaking that deepens UK–India cooperation across
+                economic, educational, and cultural domains.”
+              </h1>
+            </div>
           </div>
-        </div>
+
       </section>
 
       <section
@@ -123,20 +138,27 @@ export default function Vision() {
 
       {/* LARGE IMAGE MOSAIC (very little text) */}
       <section className="container py-10 md:py-16">
+  {/* Wide banner image */}
+  <figure className="relative mt-4 overflow-hidden rounded-2xl"> 
+    <img
+      src="/images/vision-4.jpg"
+      alt="Cultural exchange performance representing both nations"
+      className="
+        w-full border rounded-2xl
+        md:h-[32rem] md:object-cover                 /* DESKTOP/TABLET: as-is */
+        max-[767px]:h-[140px] max-[767px]:object-cover /* MOBILE: no letterbox, crop */
+        max-[767px]:transform max-[767px]:transform-gpu
+        max-[767px]:origin-center max-[767px]:scale-[1] /* MOBILE: ~10% zoom */
+      "
+      loading="lazy"
+    />
+    <figcaption className="mt-2 text-xs text-slate-500">
+      Culture as a bridge—shared stories, shared futures.
+    </figcaption>
+  </figure>
+</section>
 
-        {/* Wide banner image */}
-        <figure className="relative mt-4">
-          <img
-            src="/images/vision-4.jpg"
-            alt="Cultural exchange performance representing both nations"
-            className="h-[32rem] w-full rounded-2xl border object-cover"
-            loading="lazy"
-          />
-          <figcaption className="mt-2 text-xs text-slate-500">
-            Culture as a bridge—shared stories, shared futures.
-          </figcaption>
-        </figure>
-      </section>
+
       
     
       <Purpose /> 

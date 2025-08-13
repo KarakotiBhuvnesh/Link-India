@@ -3,34 +3,47 @@ import site from '@/site.json'
 
 export default function Hero() {
 return (
-  <section className="relative bg-slate-50 border-b h-[500px] md:h-[700px] lg:h-[1000px]">
-    {/* Background image layer */}
-    <picture aria-hidden="true" className="pointer-events-none">
-      {/* Large screens */}
-      <source media="(min-width: 1024px)" srcSet= "/images/hero-lg.jpg" />
-      {/* Tablets */}
-      <source media="(min-width: 640px)" srcSet="/images/hero-md.jpg" />
-      {/* Mobile default */}
-      <img
-        src="/images/hero-sm.jpg"
-        alt=""
-        className="absolute inset-0 h-full w-full object-cover"
-        loading="eager"
-        fetchPriority="high"
-      />
-    </picture>
+<section className="relative bg-slate-50 border-b h-[500px] md:h-[700px] lg:h-[1000px]">
+  {/* Background image layer */}
+  <picture aria-hidden="true" className="pointer-events-none">
+    {/* Large screens */}
+    <source media="(min-width: 1024px)" srcSet="/images/hero-lg.jpg" />
+    {/* Tablets */}
+    <source media="(min-width: 640px)" srcSet="/images/hero-md.jpg" />
+    {/* Mobile default */}
+    <img
+      src="/images/hero-sm.jpg"
+      alt=""
+      className="
+        absolute inset-0 w-full h-full object-cover
+        max-[767px]:object-[center_top]
+      "
+      loading="eager"
+      fetchPriority="high"
+    />
+  </picture>
 
-    {/* Contrast overlay for readability */}
-    <div className="absolute inset-0 bg-black/30"></div>
+  {/* Contrast overlay for readability */}
+  <div className="
+    absolute inset-0
+    bg-black/30                 /* desktop/tablet opacity */
+    max-[767px]:bg-black/70     /* mobile: darker overlay */
+  "></div>
 
-    {/* Content */}
-    <div className="relative z-10 h-screen"> {/* Full viewport height */}
+  {/* Content */}
+  <div
+    className="
+      relative z-10
+      max-[767px]:h-full   /* MOBILE ONLY: match section height */
+      md:h-screen          /* DESKTOP/TABLET: keep your current behavior */
+    "
+  >
     <div className="container h-full grid md:grid-cols-2 gap-10">
       <div
         className="
-          flex
-          items-start
-          pt-[50vh] md:pt-[50vh] /* pushes text down to ~3/5 height */
+          flex items-start
+          max-[767px]:pt-[35vh] /* MOBILE ONLY: nudge text above center */
+          md:pt-[50vh]          /* DESKTOP/TABLET: unchanged */
         "
       >
         <div>
@@ -40,12 +53,12 @@ return (
           <p className="mt-4 text-lg text-slate-100">
             A London-based policy initiative strengthening UK–India ties through research, events, and dialogue.
           </p>
-          
         </div>
       </div>
     </div>
   </div>
-  </section>
+</section>
+
 )
 }
   

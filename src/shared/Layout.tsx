@@ -106,6 +106,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 {/* Core */}
                 <li><a className="hover:text-slate-900" href="/">Home</a></li>
                 <li><a className="hover:text-slate-900" href="/about">About Us</a></li>
+                <li><a className="hover:text-slate-900" href="/blog">Publications</a></li>
+                <li><a className="hover:text-slate-900" href="/events">Events</a></li>
+                <li><a className="hover:text-slate-900" href="/trustees">Trustees</a></li>
 
               </ul>
             </nav>
@@ -117,9 +120,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="border-t">
           <div className="container py-4 text-xs text-slate-500 flex justify-between">
             <span>© {new Date().getFullYear()} {site.name}</span>
+            {/* 
             <span>
               <a className="hover:text-primary" href="/privacy">Privacy</a> · <a className="hover:text-primary" href="/terms">Terms</a>
             </span>
+              */}
           </div>
         </div>
       </footer>
