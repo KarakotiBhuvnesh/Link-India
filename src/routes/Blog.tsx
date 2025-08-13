@@ -28,10 +28,6 @@ export default function Blog() {
       <SEO title="Research & Blog — Link India" description="Insights, briefs, and analysis" />
       <h1 className="text-2xl font-semibold">Research & Blog</h1>
       <div className="mt-4 flex gap-3 items-center">
-        <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search posts" className="border rounded px-3 py-2 w-full md:w-80" />
-        <select value={cat} onChange={e=>setCat(e.target.value)} className="border rounded px-3 py-2">
-          {categories.map(c => <option key={c} value={c}>{c}</option>)}
-        </select>
       </div>
       <div className="mt-6 grid gap-6 md:grid-cols-3">
         {filtered.map(p => <PostCard key={p.id} post={p} />)}

@@ -34,6 +34,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         Skip to content
       </a>
 
+
+
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
         <div className="container mx-auto flex items-center justify-between py-3">
           <Link to="/" className="font-bold text-lg">{site.name}</Link>

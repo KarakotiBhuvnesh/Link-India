@@ -5,7 +5,7 @@ import { readingTime } from '@/lib/date'
 export default function PostCard({ post }: { post: Post }) {
   return (
     <article className="border rounded-2xl overflow-hidden flex flex-col">
-      {post.coverImage && <img src={post.coverImage} alt="" loading="lazy" className="aspect-[16/9] object-cover" />}
+      {post.coverImage && <img src={post.coverImage} alt="" loading="lazy" className="aspect-[16/9] object-contain" />}
       <div className="p-4 flex-1 flex flex-col">
         <div className="text-xs text-slate-500">{new Date(post.publishedAt).toDateString()} • {readingTime(post.content)}</div>
         <Link to={`/blog/${post.slug}`} className="mt-1 font-semibold text-lg hover:text-primary">{post.title}</Link>
