@@ -106,7 +106,7 @@ return (
     <div className="container py-8 md:py-12">
       <div className="grid gap-8 lg:grid-cols-3">
         {/* Main article */}
-        <article className="prose max-w-none lg:col-span-2">
+        <article className="prose max-w-3xl lg:col-span-2 lg:pl-20" >
           {/* Intro / Excerpt */}
           <p className="text-lg text-slate-700 leading-relaxed">{event.subtitle}</p>
 
@@ -139,7 +139,7 @@ return (
           {/* Body */}
           {event.body && (
             <section className="mt-8">
-              <p className="text-slate-700 leading-relaxed">{event.body}</p>
+              <p style={{ whiteSpace: 'pre-line' }} className="text-slate-700 leading-relaxed">{event.body}</p>
             </section>
           )}
         </article>
