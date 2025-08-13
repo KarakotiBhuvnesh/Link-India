@@ -22,11 +22,6 @@ export default function EventDetail() {
 
 
 
-
-
-
-
-
 // ---- helpers (place above `return`) ----
 const tz = event.timezone || "Asia/Kolkata";
 
@@ -65,10 +60,9 @@ return (
         <div className="relative aspect-[21/9] md:aspect-[24/9] overflow-hidden rounded-b-2xl">
         {event.cover ? (
           <img
-            src={event.cover || "/images/news-fallback.jpg"}
+            src={event.cover}
             alt={event.title}
             className="h-full w-full object-cover"
-            onError={(e) => (e.currentTarget.src = "/images/news-fallback.jpg")}
             loading="eager"
             fetchPriority="high"
           />
