@@ -49,13 +49,17 @@ export default function Post() {
             )}
           </header>
 
-          {/* Body */}
-          <div className="mt-8 lg:px-10 " dangerouslySetInnerHTML={{ __html: post.content }} />
+            {/* Body */}
+            {
+              <section className="mt-8 lg:pl-20 lg:pr-20">
+                <p style={{ whiteSpace: 'pre-line' }} className="text-slate-700 leading-relaxed">{post.content}</p>
+              </section>
+            }
         </article>
 
         {/* Sidebar: Author card */}
         <aside className="lg:col-span-4">
-          <div className="lg:sticky lg:top-24">
+          <div className="lg:sticky lg:top-24 ">
             <AuthorCard
               name={author?.name}
               role={author?.role}
