@@ -13,7 +13,7 @@ const nav = [
   { to: '/blog', label: 'Publications' },
   { to: '/events', label: 'Events' },
   { to: '/trustees', label: 'Trustees' },
-  { to: '/legal', label: 'Legal' },
+  // { to: '/legal', label: 'Legal' },
 ]
 
 export default function Layout({ children }: { children: React.ReactNode }) {

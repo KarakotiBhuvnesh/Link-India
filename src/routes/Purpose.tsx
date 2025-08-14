@@ -9,12 +9,11 @@ export default function Purpose() {
       <section className="border-b bg-white">
         <div className="container py-14 md:py-20">
           <p className="text-sm uppercase tracking-wide text-slate-500">Our Purpose</p>
-          <h1 className="mt-3 max-w-3xl text-4xl font-bold leading-tight md:text-6xl">
-            Evidence-led ideas that advance UK–India economic cooperation
+          <h1 className="mt-3 max-w-3xl text-4xl font-bold leading-tight md:text-5xl">
+            We are a think-and-act tank programmatically advancing UK-India cultural, economic, and values-based cooperation
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-700">
-            To generate evidence-based insights and policy recommendations that advance
-            economic cooperation.
+            To generate evidence-based insights and policy recommendations and programmes to deepen India-UK bilateral ties
           </p>
         </div>
       </section>
@@ -26,22 +25,22 @@ export default function Purpose() {
             title="Research & Outputs"
             points={[
               'Policy briefs, white papers, and reports',
-              'Focus: trade, investment, migration, education, cultural diplomacy',
+              'Focus: trade, investment, migration, education, cultural diplomacy ',
             ]}
             icon="📄"
           />
           <Card
             title="Dialogue & Convening"
             points={[
-              'Policy roundtables with government officials',
-              'Engagement with business leaders, academics, and civil society',
+              'Policy roundtables with government officials and policymakers',
+              'Praxis between business leaders, academics, civil society, and policymakers',
             ]}
             icon="🗣️"
           />
           <Card
             title="Networks & Ecosystem"
             points={[
-              'UK–India strategic forums: tech, education, sustainability',
+              'UK–India strategic forums: tech, education, sustainability and progressive causes',
               'Young Policy Leaders Network for emerging thinkers',
             ]}
             icon="🌐"
@@ -55,18 +54,10 @@ export default function Purpose() {
           {/* Text */}
           <div className="md:col-span-5">
             <div className="prose max-w-none text-lg leading-relaxed text-slate-700">
-              <p>
-                We do this by producing policy briefs, white papers, and reports on UK–India
-                trade, investment, migration, education, and cultural diplomacy. We disseminate
-                this through policy roundtables with government officials, business leaders,
-                academics, and civil society.
-              </p>
-              <p>
-                We aim to organize UK–India strategic forums focused on sectors like tech,
-                education and sustainability. We are keen on building a UK–India Young Policy
-                Leaders Network to engage emerging thinkers. Finally, we will convene diaspora
-                town halls or stakeholder consultations for policy feedback.
-              </p>
+              <p>We provide constructive and outcome-oriented ideas to deepen bilateral ties. We do this through policy briefs, white papers, and reports on UK–India trade, investment, migration, education, and cultural diplomacy.</p>
+              <p>We create a praxis between policymakers, academics, civil society, business leaders, and diaspora leaders. We do this through roundtables, conferences and projects. </p>
+              <p>We also facilitate strategic linkages with state governments, institutions, and eminent stakeholders in India and the UK. We especially focus on tech, education, sustainability, and progressive causes. </p>
+              <p>We aim to create a UK–India Young Policy Leaders Network to engage emerging thinkers. Finally, we will curate numerous programmes to deepen inter-diaspora and diaspora & government engagement.</p>
             </div>
           </div>
 
