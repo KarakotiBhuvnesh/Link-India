@@ -20,10 +20,10 @@ export default function Home() {
 
   return (
     <>
-      <SEO title="Home — Link India" description="Policy, People, Progress" />
       <Hero />
     
       <Purpose />
+      <SEO title="Home — Link India" description="Policy, People, Progress" />
       
       <figure className="mt-12 rounded-2xl text-center border bg-slate-50 p-6">
             <blockquote className="text-lg font-medium leading-relaxed md:text-xl">
