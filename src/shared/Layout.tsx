@@ -120,8 +120,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         </div>
         <div className="border-t">
-          <div className="container py-4 text-xs text-slate-500 flex justify-between">
+          <div className="container py-4 text-xs text-slate-500 flex flex-col md:flex-row md:justify-between gap-2 md:gap-0">
             <span>© {new Date().getFullYear()} {site.name}</span>
+            <span> Link India is a Charitable Incorporated Organisation (CIO) and a registered charity (1183696).</span>
             {/* 
             <span>
               <a className="hover:text-primary" href="/privacy">Privacy</a> · <a className="hover:text-primary" href="/terms">Terms</a>
