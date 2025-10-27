@@ -3,6 +3,8 @@ import posts from '@/data/posts.json'
 import authors from '@/data/authors.json'
 import { SEO } from '@/lib/seo'
 import { readingTime } from '@/lib/date'
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 type Socials = Record<string, string> // or import your Socials type if you have it
 
@@ -52,7 +54,9 @@ export default function Post() {
             {/* Body */}
             {
               <section className="mt-8 lg:pl-20 lg:pr-20">
-                <p style={{ whiteSpace: 'pre-line' }} className="text-slate-700 leading-relaxed">{post.content}</p>
+                <div className="text-slate-700 leading-relaxed prose prose-lg max-w-none">
+                  <ReactMarkdown>{post.content}</ReactMarkdown>
+                </div>
               </section>
             }
         </article>
