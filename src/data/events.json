@@ -1,5 +1,39 @@
 [
   {
+    "id": "e3",
+    "slug": "economic-lectures-india-uk-global-economy",
+    "speakers": "Mihir Sharma",
+    "title": "India and the UK in the Global Economy",
+    "subtitle": "Link India Economic Lectures Series — In association with the Centre for the Study of Democracy, University of Westminster. A talk by Mihir Sharma on how shifting global conditions reshape economic debates in India and the UK.",
+    "excerpt": "Principal Research Fellow at IPPR Mihir Sharma examines how trade fragmentation, technological change, and fiscal pressures are reshaping India's and the UK's economic strategies.",
+    "start": "2026-03-02T18:00:00+00:00",
+    "timezone": "Europe/London",
+    "venue": {
+      "name": "Fyvie Hall, University of Westminster, Regent St Campus",
+      "address": "London"
+    },
+    "body": "In an era of geopolitical headwinds, uncertain growth, and shifting global economic assumptions, both India and the UK face difficult economic policy choices. This talk by Mihir Sharma explores how shifting global conditions — from trade fragmentation and technological change to fiscal pressures and political economy constraints — are reshaping economic debates in both countries. Drawing on comparative insights, the discussion examines how India and the UK are responding to these challenges, where their trajectories converge and diverge, and what this moment reveals about the future of growth, governance, and economic strategy for these two democracies. Presented in association with the Centre for the Study of Democracy, University of Westminster.",
+    "tags": ["Economics", "Trade", "Policy", "UK-India"],
+    "cover": "/images/past-event-3.jpg"
+  },
+  {
+   "id": "e2",
+   "slug": "strategic-dialogues-bangladesh-elections",
+   "speakers": "Priyajit DebSarkar, Ashwin Kumaraswamy, Barrister Tania Amir, Christopher Blackburn, Robert Bob Lancia, Prof. Dr Habibe Millat, Shah Rahman Belal, A Q C Murad",
+   "title": "India and the Bangladesh Elections: Geopolitics, Security, and the Future of the Eastern Neighbourhood",
+   "subtitle": "Link India Strategic Dialogues — A high-level panel examining the geopolitical and security implications of the Bangladesh elections for India and the broader Eastern Neighbourhood.",
+   "excerpt": "A multi-speaker panel exploring how the Bangladesh elections reshape India's strategic calculus, regional security dynamics, and the future of the Eastern Neighbourhood.",
+   "start": "2026-02-24T18:00:00+00:00",
+   "timezone": "Europe/London",
+   "venue": {
+     "name": "42 Queen Anne's Gate",
+     "address": "London SW1H 9AP"
+   },
+   "body": "Link India Strategic Dialogues brought together geopolitical analysts, legal experts, and international affairs scholars to examine the implications of the Bangladesh elections for India and the region. Speakers: Priyajit DebSarkar (Author & Geopolitical Analyst), Ashwin Kumaraswamy (Trustee, Link India), Barrister Tania Amir (International expert on Human Rights and International Law), Christopher Blackburn (Author & Swiss Bangladesh Strategic Dialogue), Robert Bob Lancia (US Navy Chaplain, Author and State Representative Rhode Island), Prof. Dr Habibe Millat (Director of Global Center for Democratic Governance Canada). Online: Shah Rahman Belal (Editor, Bridge Bangla 24 UK) and A Q C Murad (Bangla TV UK Correspondent).",
+   "tags": ["Strategic Dialogues", "Geopolitics", "Bangladesh", "Security"],
+   "cover": "/images/past-event-2.jpg"
+  },
+  {
     "id": "e1",
     "slug": "past-event-1",
     "speakers": "Rahul Gandhi",

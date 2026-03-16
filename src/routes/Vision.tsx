@@ -23,6 +23,7 @@ export default function Vision() {
           "
           loading="lazy"
         />
+        <div className="absolute inset-0 bg-black/50"></div>
 
         <div className="absolute inset-0 bg-black/35" aria-hidden />
           <div className="absolute inset-x-0 bottom-0">
